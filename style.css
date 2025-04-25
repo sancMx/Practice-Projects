@@ -1,0 +1,15 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('https://source.unsplash.com/1600x900/?coding,developer') no-repeat center center/cover;
+  }
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  img {
+    cursor: pointer;
+  }
+  
