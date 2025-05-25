@@ -1,15 +1,60 @@
+/* Reset default margins */
+body, h1, h2, p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero section */
 .hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url('https://source.unsplash.com/1600x900/?coding,developer') no-repeat center center/cover;
-  }
-  .card {
-    transition: transform 0.3s ease-in-out;
-  }
-  .card:hover {
-    transform: scale(1.05);
-  }
-  img {
+    background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4') center/cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* Menu section */
+.menu {
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.menu-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-  }
-  
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #ff5252;
+}
